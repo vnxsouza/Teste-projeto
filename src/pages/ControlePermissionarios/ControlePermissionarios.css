@@ -1,0 +1,179 @@
+/* .tituloPagina {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .textTitle{
+    margin-left: 100px;
+    margin-right: 50px;
+} */
+
+.timeLine {
+    cursor: pointer;
+}
+
+.configuraVeiculo label {
+    font-family: Montserrat;
+}
+
+.divisor {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.formVeiculo {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 1px 2px 5px 1px rgba(68, 68, 68, 0.041);
+    border: #1a1a1a 1px solid;
+}
+
+.linhaAgentesClicavel {
+    cursor: pointer;
+}
+
+
+.tabelaAgentes .linhaAgentesClicavel:hover {
+    box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.103);
+}
+
+.botaoFormDetails {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.iconVoltar {
+    padding: 5px;
+    margin: 0 5px 0 -10px;
+    background-color: #5062661e;
+    border-radius: 5px;
+}
+
+.selectYears {
+    padding: 3px;
+}
+
+.datePicker .ant-picker-input input::placeholder {
+    color: #1a1a1a;
+}
+
+.datePicker {
+    padding: 5px 5px 6px 5px;
+}
+
+#labelSelectAno {
+    position: fixed;
+    margin-top: -55px;
+    margin-left: 5px;
+    font-size: 12px;
+    background-color: white;
+}
+
+.configuraVeiculo .configuracoes {
+    margin-left: 6px;
+}
+
+.configuraVeiculo .form-talao {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.configuraVeiculo .buttonBack {
+    background-color: #506266;
+    color: white;
+}
+
+.configuraVeiculo .buttonBack:hover {
+    background-color: #506266b8;
+}
+
+.configuraVeiculo .buttonBackDisabled {
+    background-color: #506266be;
+    color: rgb(255, 255, 255);
+}
+
+.configuraVeiculo .buttonBackDisabled span {
+    color: rgb(209, 209, 209);
+}
+
+.configuraVeiculo .buttonSave {
+    background-color: #a5acae;
+    color: white;
+}
+
+.configuraVeiculo .buttonSave:hover {
+    background-color: #6e7383bc;
+}
+
+.configuraVeiculo .buttonChangeProprietario {
+    background-color: #6a9c5e;
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+
+.configuraVeiculo .buttonChangeProprietario:hover {
+    background-color: #6a9c5ebe;
+}
+
+.configuraVeiculo .tabelaAgentes {
+    width: 100%;
+}
+
+.configuraVeiculo .linhaAgentesAtivo {
+    background-color: #8dcd7d76;
+}
+
+.configuraVeiculo .linhaAgentesAtivo .dadoTabela {
+    font-weight: 600;
+}
+
+.configuraVeiculo .detailsProprietario {
+    font-weight: 600;
+    color: #506266;
+    cursor: pointer;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.configuraVeiculo .buttonSaveDetails {
+    background-color: #6a9c5e;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.configuraVeiculo .buttonSaveDetails:hover {
+    background-color: #6a9c5ebe;
+    color: white;
+}
+
+.configuraVeiculo .buttonCloseDetails{
+    background-color: rgb(240, 88, 88);
+    color: white;
+}
+
+.configuraVeiculo .buttonCloseDetails:hover{
+    background-color: rgba(240, 88, 88, 0.694);
+    color: white;
+}
+
+.configuraVeiculo .iconCloseDetails {
+    cursor: pointer;
+    float: right;
+}
+
+.configuraVeiculo .dadoTabelaInativo{
+    color: #f33030;
+    text-align: left;
+}
+
+.iconReturnTable {
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.notAuthorized,
+.notAuthorizedComSideNav {
+    text-align: center;
+    transition: all 0.3s linear 0s;
+    transform: translateX(0%);
+}
+
+.notAuthorizedComSideNav {
+    margin-left: 165px;
+}

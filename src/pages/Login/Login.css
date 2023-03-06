@@ -1,0 +1,87 @@
+.login {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: block; 
+    height: 100%;
+}
+
+.headerLogin {
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px;
+    background-color:#506266;
+    height: 100px;
+    width: 100%;
+} 
+
+.headerLogin h4 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.loginUser {
+    margin-top: 7%;
+}
+
+.formLogin {
+    border: #1a1a1a 1px solid;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 1px rgba(68, 68, 68, 0.041);
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.labelLogin label { 
+    display: block;
+    float: left;
+} 
+
+.labelLogin input {
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px rgb(170, 170, 170) solid;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.labelLogin .buttonHideSenha {
+    position: relative;
+    float: right;
+    margin-top: -40px;
+    margin-right: 2%;  
+}
+
+@media (min-width: 768px)  {
+    .labelLogin .buttonHideSenha {
+        position: relative;
+        float: right;
+        margin-top: -40px;
+        margin-right: 3%;  
+    }   
+
+    .headerLogin {
+        top: 0;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 35px;
+        background-color:#506266;
+        height: 100px;
+        width: 100%;
+    } 
+    
+    .headerLogin h4 {
+        color: white;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+}

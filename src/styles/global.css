@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+    background-color: #c3ccce;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #495d615b;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.conteudoComSidenav {
+    margin-left: 185px;
+    transition: all 0.3s linear 0s;
+    transform: translateX(0%);
+}
+
+.conteudoSemSidenav {
+    transition: all 0.3s linear 0s;
+    transform: translateX(0%);
+}
+
+.modalMedio,
+.modalSuccess,
+.modalFalha {
+    width: 95%;
+}
+
+.modalSuccess .iconError {
+    display: none;
+}
+
+.modalFalha .iconSuccess {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .modalMedio,
+    .modalSuccess,
+    .modalFalha {
+        width: 40%;
+    }
+}

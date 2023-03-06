@@ -1,0 +1,260 @@
+.header {
+    top: 0;
+    font-weight: 600;
+    background-color: #506266;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.subHeader {
+    display: none;
+}
+
+.tituloSubHeaderComSidenav {
+    margin-left: 30rem;
+    /* transition: width 0.3s;
+    transform: translateX(0%); */
+}
+
+.tituloSubHeader {
+    /* transition: linear 0.3s;
+    transform: translateX(0%); */
+}
+
+.subHeader h3 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.iconMenuLateral {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.iconMenuLateral:hover {
+    background-color: #869b9e8e;
+    border-radius: 100%;
+}
+
+/* .menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+.buttonMenuSecundario {
+    cursor: pointer;
+    margin-top: -15px;
+    padding: 2px;
+}
+
+.itens-menu {
+    display: none;
+}
+
+.menuSecundario body {
+    width: 20px;
+}
+
+.mobile {
+    padding-top: 15px;
+}
+
+.itensMobile a {
+    color: black;
+    text-align: left;
+    list-style: none;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.itensMobile li {
+    margin: 5px 0 5px 0;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.itensDropdownMobile li {
+    margin-left: -50px;
+}
+
+.itensMobile hr {
+    width: 150%;
+    margin: 0 0 0 -50px;
+}
+
+.iconMenuMobile {
+    margin: -3px 5px 0 -30px;
+}
+
+.menu-mobile,
+.configuracoesMobileActive {
+    background-color: #869b9e;
+    padding-top: 100px;
+    margin-bottom: -100px;
+    /* padding-bottom: 1px; */
+}
+
+.itemDropdown,
+.itemSubDropdown {
+    margin-left: 5px;
+    width: 200px;
+}
+
+.configuracoesMobileActive li,
+.configuracoesMobileActive a {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+}
+
+.img-menu img {
+    width: 120px;
+}
+
+.buttonProfile {
+    justify-content: center;
+    align-items: center;
+    margin-left: 70%;
+}
+
+.profile:hover {
+    cursor: pointer;
+}
+
+.profileActive {
+    position: absolute;
+    background-color: #2b3a3d;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+    padding: 7px;
+    margin-left: -25px;
+}
+
+.profileActive a {
+    color: white;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    text-align: left;
+    z-index: 20;
+}
+
+.itensPerfil {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 6.8rem;
+}
+
+.textItemPerfil {
+    margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+
+
+    .mobile,
+    .configuracoesMobileActive,
+    .subSubMenuMobile {
+        display: none;
+    }
+
+    .subHeader {
+        background-color: transparent;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        margin-top: 95px;
+        padding: 3px;
+        z-index: 1;
+        justify-content: flex-start;
+        height: 54px;
+    }
+
+    .configuracoesActive {
+        padding-top: 0;
+        display: flex;
+        position: fixed;
+        text-align: left;
+        width: 165px;
+        background-color: #869b9e;
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+        z-index: 9;
+    }
+
+    .configuracoesActive ul {
+        padding: 0;
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .configuracoesActive span {
+        padding: 0 10px 0 5px;
+    }
+
+    .configuracoesActive li {
+        list-style: none;
+        text-align: left;
+    }
+
+    .configuracoesActive .subSubMenu {
+        position: fixed;
+        margin-top: -30px;
+        margin-left: 167px;
+        width: 130px;
+    }
+
+    .configuracoesActive li:hover {
+        background-color: #454e57;
+        border-radius: 5px;
+    }
+
+    .itens-menu {
+        color: white;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .itens-menu span {
+        cursor: pointer;
+    }
+
+    .itens-menu a,
+    .itens-menu li {
+        /* padding: 2%; */
+        text-decoration: none;
+        color: white;
+    }
+
+    .itens-menu a:hover,
+    .itens-menu span:hover {
+        color: rgb(192, 201, 209);
+    }
+
+    .buttonProfile {
+        /* justify-content: center; */
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+
+    .configuracoesActive a {
+        padding: 0;
+    }
+
+}

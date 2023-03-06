@@ -1,0 +1,106 @@
+.sidenav,
+.sideNavOculta {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sidenav {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    font-weight: 600;
+    background-color: rgb(245, 245, 245);
+    width: 185px;
+    height: 100vh;
+    position: fixed;
+    transition: all 0.3s linear 0s;
+    transform: translateX(0%);
+    box-shadow: 2px 0 8px 1px rgba(0, 0, 0, 0.082);
+  }
+
+  .sidenav li {
+    font-size: 1rem;
+    padding-bottom: 5px;
+    list-style: none;
+    margin: 0 auto;
+    text-align: left;
+    color: #353e41;
+    width: 150px;
+    margin-left: -33px;
+    cursor: pointer;
+    width: 100% 0.3s ease;
+  }
+
+  .itemMenuLista {
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-left: 10px;
+    /* justify-content: flex-start; */
+  }
+
+  .itemMenuLista:hover {
+    color: rgb(0, 0, 0);
+    background-color: #384749be;
+  }
+
+  .iconItemMenu {
+    margin: -2px 5px 0 0;
+  }
+
+  .sidenav-menu {
+    margin-top: 149px;
+    border-top: 1px solid rgba(78, 78, 110, 0.336);
+  }
+
+  .sideNavOculta {
+    display: inline;
+    top: 0;
+    width: 0%;
+    height: 100vh;
+    position: fixed;
+    transition: all 0.3s linear 0s;
+    transform: translateX(0%);
+  }
+
+  .sideNavOculta li {
+    display: none;
+  }
+
+  .itensDropdown li {
+    color: #353e41c0;
+    margin-bottom: 3px;
+    padding-bottom: 0;
+    margin-left: -15px;
+  }
+
+  .itensDropdown li:hover {
+    color: rgb(145, 145, 163);
+  }
+
+  .subSubItemDropdown li:hover {
+    color: white;
+  }
+
+  .sidenav-menu a {
+    text-decoration: none;
+  }
+
+  .buttonCloseSidenav,
+  .buttonOpenSideNav {
+    float: left;
+    margin-top: 110px;
+    margin-left: 6px;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  .buttonCloseSidenav:hover,
+  .buttonOpenSideNav:hover {
+    background-color: #869b9e8e;
+    border-radius: 100%;
+  }
+}

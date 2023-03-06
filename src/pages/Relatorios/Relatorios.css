@@ -1,0 +1,242 @@
+.nenhumaInfracao {
+    text-align: center;
+}
+
+.headerTabela,
+.dadoTabela {
+    text-align: left;
+    align-items: center;
+}
+
+.lastHeaderTabela {
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.selectRegistros {
+    padding: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.retornaTabela {
+    background-color: #506266;
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.headerPanelsInfracoes {
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.panelFilterInfracoes {
+    text-align: left;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.selectFilterInfracoes span {
+    display: block;
+}
+
+.filtrosInfracoes {
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+}
+
+.envioLote {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+
+.textLabel {
+    position: absolute;
+}
+
+.dataLimiteLote,
+.tipoArquivo,
+.botaoGerarLote {
+    display: inline-block;
+    text-align: left;
+    padding: 0 10px 0 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.dataLimiteLote {
+    margin-left: 30px;
+}
+
+.botaoGerarLote {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tipoArquivo select {
+    padding: 7px;
+    margin: 0 auto;
+}
+
+.buttonOpcional {
+    display: none;
+}
+
+.tituloPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #506266;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 0 0 3px 0 #1a1a1a;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.tituloPanel h6 {
+    margin-right: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.labelGerarLote {
+    cursor: pointer;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #82969b;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 0 auto;
+    box-shadow: 1px 2px 5px 1px rgba(49, 49, 49, 0.142);
+}
+
+.labelGerarLote:hover {
+    background-color: #506266;
+}
+
+.textGerarLote {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.loadingLote {
+    z-index: 9;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    color: white;
+}
+
+.elementsLoading {
+    margin-top: 350px;
+}
+
+/* .headerTabelaData,
+.dadoTabelaData {
+    width: 180px;
+} */
+
+.envioLote input:focus {
+    box-shadow: 0px 0px 5px 2px rgba(24, 24, 24, 0.034);
+}
+
+
+.controleNotificacoes form {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.selectInfracoes,
+.checkInfracoes {
+    justify-content: center;
+    width: 30px;
+}
+
+.checkboxInfracoes {
+    width: 20px;
+}
+
+.colunaExpandeInfracao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconeExpandeInfracao:hover {
+    background-color: #506266;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.messageError {
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+.valorTotalLote {
+    font-weight: 600;
+}
+
+
+@media (min-width:768px) {
+    .controleNotificacoes form {
+        width: 65%;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .filtrosInfracoes {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+
+    .envioLote {
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        width: 65%;
+    }
+
+    .labelGerarLote {
+        margin: 0;
+    }
+}

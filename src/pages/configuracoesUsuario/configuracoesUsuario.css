@@ -1,0 +1,80 @@
+
+.novoUsuario {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: block; 
+    height: 100%;
+}
+
+.titleAdmin {
+    margin-left: -3rem;
+}
+
+.novoUsuario form {
+    border: #1a1a1a 1px solid;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 1px rgba(68, 68, 68, 0.041);
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.novoUsuario .labelForm .buttonHideSenha {
+    position: relative;
+    float: right;
+    margin-top: -33px;
+    margin-right: 1%;
+}
+
+.buttonCriaUsuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonCriaUsuario button {
+    width: 8rem;
+}
+
+
+.novoUsuario .subtitulo h6 {
+    margin-left: 0;
+    text-align: center;
+}
+
+.dadoTabelaEmail{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 443px;
+}
+
+.headerTabelaEmail{
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    /* width: 443px; */
+}
+
+/* .colunaDataInativo {
+    display: block;
+} */
+
+@media (min-width: 768px) {
+    .novoUsuario .labelForm .buttonHideSenha {
+        position: relative;
+        float: right;
+        margin-top: -33px;
+        margin-right: 3%;
+    }
+
+    .novoUsuario form {
+        border: #1a1a1a 1px solid;
+        width: 65%;
+    }
+}

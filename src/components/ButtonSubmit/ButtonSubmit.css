@@ -1,0 +1,15 @@
+.buttonSubmit button {
+    width: 40%; 
+    position: inherit;
+    background-color:#83a57a;
+    border: none;
+}
+
+.buttonSubmit button:hover{
+    background-color: #44727c9d;
+}
+
+.buttonSubmit button:focus {
+    background-color: #44727c9d;
+    box-shadow: none;
+}

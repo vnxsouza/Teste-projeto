@@ -1,0 +1,45 @@
+.listagemEnquadramentos .tabelaAgentes {
+    width: 100%;
+}
+
+.dadoTabelaDescricao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    /* max-width: 470px; */
+}
+
+.textNomeAgente {
+    white-space: nowrap
+}
+
+.detalhesEnquadramento{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.listaDetalhesEnquadramento{
+    text-align: left;
+    list-style: none;
+}
+
+.itemListaDetalhesEnquadramento{
+    font-weight: 600;
+}
+
+.titleDetailsEnquadramento {
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.listaMedidasAdministrativas {
+    list-style: none;
+}
+
+@media (min-width:768px) {
+    .listagemEnquadramentos .tabelaAgentes {
+        width: 65%;
+    }
+}

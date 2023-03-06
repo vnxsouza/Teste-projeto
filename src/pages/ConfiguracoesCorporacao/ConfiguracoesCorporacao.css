@@ -1,0 +1,23 @@
+.colunaCorporacao {
+    display: flex;
+    align-items: center;
+}
+
+.colunaCorporacao form {
+    border: none;
+    margin: 0;
+    width: 10rem;
+    box-shadow: none;
+}
+
+.colunaCorporacao form input:focus {
+    box-shadow: none;
+}
+
+.iconEdicaoCorporacao {
+    margin: 5px;
+}
+
+.iconEdicaoCorporacao:hover {
+    cursor: pointer;
+}

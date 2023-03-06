@@ -1,0 +1,28 @@
+.modalBodyMedidasAdmin h4 {
+    font-size: 1.07rem;
+    justify-content: left;
+    text-align: left;
+    font-weight: 600;
+}
+
+.modalBodyMedidasAdmin label {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.buttonsModalMedidasAdmin button{
+    margin: 3px;
+}
+
+.buttonsModalMedidasAdmin .buttonEnviaComMedidasAdmin {
+    background-color: #83a57a;
+    color: white;
+}
+
+.buttonsModalMedidasAdmin .buttonEnviaSemMedidasAdmin {
+    display: none;
+}
+
+.checkboxMedidasAdmin {
+    display: flex;
+}

@@ -1,0 +1,10 @@
+.adicionaProprietario {
+    margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+   text-align: center; 
+}
+
+#selectAdicionaCondutorProprietario {
+    text-align: left;
+}

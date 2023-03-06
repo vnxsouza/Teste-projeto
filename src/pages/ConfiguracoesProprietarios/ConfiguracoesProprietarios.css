@@ -1,0 +1,7 @@
+#tabelaProprietarios {
+    width: 75%;
+}
+
+#tabelaProprietarios .dadoTabela #telefoneProprietario {
+    white-space: nowrap;
+}

@@ -1,0 +1,12 @@
+.notFound, 
+.notFoundComSideNav {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s linear 0s;
+    transform: translateX(0%);
+}
+
+.notFoundComSideNav {
+    margin-left: 165px;
+}

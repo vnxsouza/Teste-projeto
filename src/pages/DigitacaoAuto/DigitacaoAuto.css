@@ -1,0 +1,536 @@
+.content {
+    padding-top: 98px;
+}
+
+.tela {
+    justify-content: center;
+    margin: auto;
+}
+
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.tela form {
+    box-shadow: 1px 2px 5px 1px rgba(68, 68, 68, 0.041);
+    border: #1a1a1a 1px solid;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.opcaoImagem input,
+.opcaoImagemSecundaria input {
+    display: none;
+}
+
+/* .opcaoImagemSecundaria {
+    position: absolute;
+    left: 45px;
+    top: 40px;
+} */
+
+.uparImagem,
+.selectTipoImagem {
+    cursor: pointer;
+    padding: 3px;
+    align-items: center;
+    background-color: #506266;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+
+.selectTipoImagem {
+    padding: 5px;
+}
+
+.selectTipoImagensSecundarias {
+    position: absolute;
+    top: 2px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+/* .teste {
+    z-index: 99;
+} */
+
+/* .optionsTipoImagem {
+    width: 15rem;
+    margin-left: 35px;
+    background-color:#506266;
+    border-radius: 5px;
+    color: black;
+    position: absolute;
+    padding: 5px;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.13);
+} */
+
+.optionsTipoImagem h6 {
+    font-weight: 600;
+}
+
+.optionsTipoImagem select,
+.optionsTipoImagensSecundarias select {
+    padding: 5px;
+    background-color: #506266;
+    color: white;
+}
+
+.optionsTipoImagem option,
+.optionsTipoImagensSecundarias option {
+    background: white;
+    color: black;
+}
+
+.camposTipoImagem {
+    display: flex;
+}
+
+.divTipoImagem,
+.divTipoImagensSecundarias {
+    display: block;
+    align-items: center;
+}
+
+/* .optionsTipoImagensSecundarias {
+    font-size: 14px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    position: absolute;
+    padding: 10px;
+    width: 10rem;
+    top: 2px;
+    margin-left: 30px;
+    z-index: 99;
+    border: 1px solid black;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.13);
+} */
+
+.optionsTipoImagensSecundarias h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.messageTipoImagem {
+    /* position: fixed; */
+    font-size: 12px;
+    display: block;
+    background-color: #506266;
+    color: rgb(255, 132, 132);
+    font-weight: 600;
+    padding: 4px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+.arrayImagensPreview {
+    display: flex;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 15px;
+    z-index: 9;
+}
+
+.uploadSecundario,
+.previewImageDefault {
+    background-color: #1a1a1a;
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.082);
+    overflow-y: hidden;
+}
+
+.uploadSecundario img,
+.previewImageDefault img {
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.previewImageDefault {
+    border-radius: 5px;
+    border: 2px solid #2f00ff;
+}
+
+.previewImageDefault img {
+    opacity: 1;
+    cursor: default;
+}
+
+.iconsDivImage {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 10px;
+}
+
+.image {
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0.5rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    max-height: 550px;
+    overflow-y: auto;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+
+.image img {
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.image::-webkit-scrollbar {
+    background-color: rgb(245, 245, 245);
+    width: 7px;
+    border-radius: 5px;
+    border-start-start-radius: 0%;
+}
+
+.image::-webkit-scrollbar-thumb {
+    background-color: #d1d1d1;
+    border-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+
+.mostraImagem .buttonDeleteImage {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.image .buttonDeleteImage :hover {
+    color: rgba(253, 47, 47, 0.932);
+}
+
+.removeSecondImage {
+    position: absolute;
+    top: 2px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.selectTipoInfracao .css-1s2u09g-control {
+    background-color: rgb(245, 245, 245);
+    border: #1a1a1a 1px solid;
+    padding: -3px;
+}
+
+.selectTipoInfracao .css-14el2xx-placeholder {
+    color: black;
+    text-align: left;
+}
+
+.optionsMunicipios,
+.optionsAgente {
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    max-height: 100px;
+    overflow-y: auto;
+    z-index: 8;
+    text-align: left;
+    padding: 5px;
+}
+
+.optionsMunicipios::-webkit-scrollbar,
+.optionsAgente::-webkit-scrollbar {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    width: 5px;
+}
+
+.optionsMunicipios::-webkit-scrollbar-thumb,
+.optionsMunicipios::-webkit-scrollbar-thumb {
+    background-color: #bdbdbd;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.errorMessageVeiculo .errorMessage {
+    font-size: 1px;
+}
+
+.optionsEnquadramento {
+    color: black;
+    position: absolute;
+    max-height: 130px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    overflow-y: auto;
+    text-align: left;
+    padding: 5px;
+    z-index: 9;
+}
+
+.listaEnquadramento {
+    margin-bottom: 5px;
+    padding: 1px;
+}
+
+.listaMunicipios:hover,
+.listaEnquadramento:hover,
+.listaAgentes:hover {
+    background-color: #d1d1d1;
+    border-radius: 3px;
+    cursor: default;
+}
+
+.form-talao input:focus,
+.form-talao textarea:focus,
+.formCriaUsuario input:focus,
+.formCriaUsuario textarea:focus {
+    box-shadow: 0px 0px 5px 2px rgba(24, 24, 24, 0.034);
+}
+
+.form-talao .labelForm,
+.formCriaUsuario .labelForm {
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-top: 1.5%;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+}
+.iconCondutorNaoIdentificado{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 87%;
+    cursor: pointer;
+}
+
+.iconVeiculoNaoSelecionado{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 87%;
+    cursor: default;
+}
+
+select {
+    background-color: rgb(245, 245, 245);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.data {
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+}
+
+.subtitulo {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #506266;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 0 0 3px 0 #1a1a1a;
+}
+
+.subtitulo h6 {
+    font-size: 0.9rem;
+    margin-left: 4%;
+    font-weight: 600;
+    color: white;
+}
+
+.buttonCollapse {
+    cursor: pointer;
+}
+
+.labelForm {
+    position: relative;
+}
+
+.labelForm label {
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    color: rgb(82, 82, 82);
+    font-size: 0.9rem;
+    transition: top 200ms, font 200ms;
+}
+
+.labelForm input:focus+label,
+.labelForm input:not(:placeholder-shown)+label,
+.labelForm textarea:focus+label,
+.labelForm textarea:not(:placeholder-shown)+label {
+    font-weight: 500;
+    font-size: 0.7rem;
+    top: -9px;
+    color: black;
+    background-color: white;
+}
+
+.labelForm input:not(:focus)::placeholder,
+.labelForm input:focus::placeholder,
+.labelForm textarea:not(:focus)::placeholder,
+.labelForm textarea:focus::placeholder {
+    opacity: 0;
+}
+
+.labelForm input:not(:focus)+label::after {
+    opacity: 0;
+}
+
+.checkboxCondutor label {
+    margin: 3px 15px 3px 5px;
+}
+
+.modalFalha .modal-content,
+.modalFalhaCadastro .modal-content,
+.modalFalhaCriaAgente .modal-content {
+    color: rgb(240, 88, 88);
+}
+
+.modalFalha .buttonCloseModal button,
+.modalFalhaCadastro .buttonCloseModal button,
+.modalFalhaCriaAgente .buttonCloseModal button {
+    background-color: #40484e;
+}
+
+.modalSuccess .modal-content,
+.modalSuccessCadastro .modal-content,
+.modalSuccessCriaAgente .modal-content,
+.modalEditaAgente .modal-content,
+.modalInativaAgente .modal-content {
+    color: #6a9c5e;
+}
+
+.modalSuccess .buttonCloseModal button,
+.modalSuccessCadastro .buttonCloseModal button,
+.modalSuccessCriaAgente .buttonCloseModal button,
+.modalEditaAgente .buttonCloseModal button,
+.modalInativaAgente .buttonCloseModal button {
+    background-color: #3f4342;
+}
+
+.modalSuccess .buttonCloseModal button:hover,
+.modalSuccessCadastro .buttonCloseModal button:hover,
+.modalSuccessCriaAgente .buttonCloseModal button:hover,
+.modalEditaAgente .buttonCloseModal button:hover,
+.modalInativaAgente .buttonCloseModal button:hover {
+    background-color: #535f68d5;
+}
+
+.modalFalha .buttonCloseModal .buttonOpcional,
+.modalSuccess .buttonCloseModal .buttonOpcional {
+    display: none;
+}
+
+.modalSuccess .iconError,
+.modalSuccessCadastro .iconError,
+.modalSuccessCriaAgente .iconError,
+.modalEditaAgente .iconError,
+.modalInativaAgente .iconError {
+    display: none;
+}
+
+.modalFalha .iconSuccess,
+.modalFalhaCadastro .iconSuccess,
+.modalFalhaCriaAgente .iconSuccess {
+    display: none;
+}
+
+
+@media (min-width:768px) {
+
+    .tela {
+        justify-content: center;
+        display: flex;
+    }
+
+    .mostraImagem {
+        width: 180rem;
+        max-width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0.5rem;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+        max-height: 550px;
+        border-radius: 10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .tela form {
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        min-width: 50%;
+        max-width: 60%;
+        margin: 20px;
+        border-radius: 12px;
+        max-height: 550px;
+        overflow-y: auto;
+    }
+
+    .tooltipTalao {
+        margin-left: -40px;
+    }
+
+    .tela form::-webkit-scrollbar {
+        border-radius: 5px;
+        border-start-start-radius: 0%;
+        width: 7px;
+    }
+
+    .tela form::-webkit-scrollbar-thumb {
+        background-color: #586c707a;
+        border-radius: 50px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    .tela form::-webkit-scrollbar-track {
+        margin: 2px;
+    }
+
+    .arrayImagensPreview {
+        display: flex;
+        position: absolute;
+        bottom: 25px;
+        margin-left: 15px;
+        z-index: 9;
+    }
+
+    .labelForm label {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        color: rgb(82, 82, 82);
+        font-size: 0.9rem;
+        transition: top 200ms, font 200ms;
+    }
+
+}

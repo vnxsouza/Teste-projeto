@@ -1,0 +1,49 @@
+
+
+.redefinirSenha {
+    text-align: center;
+    margin-left: 5px;
+    background-color: #506266;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.redefinirSenha span,
+.confirmarSenha span {
+    color: white;
+    font-weight: 600;
+}
+
+.confirmarSenha {
+    text-align: center;
+    margin-left: 5px;
+    background-color:#83a57a; 
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.voltarPerfil{
+    text-align: center;
+    margin-left: 5px;
+    background-color:#c4c4c4; 
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirmaAlteracao {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width:768px) {
+    .alterarSenha .formLogin{
+        width: 35%;
+    }
+    
+    .alterarSenha .buttonHideSenha {
+        margin-left: 90%;
+    }
+}

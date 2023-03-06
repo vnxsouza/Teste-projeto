@@ -1,0 +1,337 @@
+.labelForm .buttonHideSenha {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 85%;
+}
+
+.buttonCriaUsuario button {
+    width: 8rem;
+}
+
+.paginacao {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.pagination {
+    scale: 0.85;
+}
+
+.iconsMenu {
+    /* width: 50vw; */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconOrdenacao:hover {
+    cursor: pointer;
+    color: #1a1a1a;
+}
+
+.menuNavegacao form {
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    /* width: 500px; */
+}
+
+.formFiltroAgente {
+    /* padding: 4px; */
+    border-radius: 0;
+    border: none;
+}
+
+.formFiltroAgente:focus {
+    box-shadow: 0px 0px 5px 2px rgba(24, 24, 24, 0.034);
+}
+
+.labelFiltroAgente {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.labelFiltroAgente input {
+    border-radius: 0;
+}
+
+.labelFiltroAgente input:focus {
+    box-shadow: 0px 0px 5px 2px rgba(24, 24, 24, 0.034);
+}
+
+.labelFiltroAgente select {
+    border-radius: 5px 0 0 5px;
+    padding: 8px;
+    border: none;
+    background-color: #506266b6;
+    color: white;
+}
+
+.labelFiltroAgente select option {
+    background-color: white;
+    color: black;
+}
+.labelFiltroAgente .quantidadeRegistros {
+    border-radius: 0 5px 5px 0;
+}
+
+.tabelaAgentes {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    overflow: auto;
+}
+
+.tabelaAgentes th {
+    background-color: #506266;
+    color: white;
+    white-space: nowrap
+}
+
+.nomeTabela select {
+    background-color: white;
+}
+
+.tabelaAgentes .linhaAgentes:hover {
+    box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.103);
+}
+
+.tabelaAgentes .linhaAgentes:hover td {
+    border: none;
+    border-radius: 3px;
+}
+
+.messageInativo {
+    font-size: 12px;
+    /* color:#e26767; */
+    color: #f33030;
+}
+
+
+.nomeTabela {
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.nomeAgentes {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textNomeAgenteInativo {
+    color: #f33030;
+}
+
+.numeroTabela {
+    align-items: end;
+    text-align: center;
+    margin: 0 auto;
+    width: 120px;
+}
+
+.iconEdit,
+.iconInative,
+.iconReativar {
+    padding: 5px;
+    border: none;
+}
+
+.iconEdit:hover,
+.iconInative:hover,
+.iconReativar:hover {
+    background-color: #506266a2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.iconEdit:hover {
+    color: rgb(255, 255, 255);
+}
+
+.iconInative:hover {
+    color: #ee5050;
+}
+
+.reativaAgente {
+    display: flex;
+    align-items: center;
+}
+
+.iconReativar {
+    margin-left: 5px;
+}
+
+.iconReativar:hover {
+    color: #ffffff;
+}
+
+.iconsModificacao {
+    display: flex;
+}
+
+.itemMenuNavegacao {
+    background-color: #5062661e;
+    border-radius: 5px;
+    padding: 8px;
+    width: fit-content;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisaTabela {
+    background-color: #5062661e;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pesquisaTabela form {
+    width: 100%;
+}
+
+.iconNavegacao {
+    cursor: pointer;
+}
+
+.iconBusca {
+    background-color: #506266b6;
+    padding: 5.8px;
+    border-radius: 0 5px 5px 0;
+}
+
+.page-item a {
+    color: #1a1a1a;
+}
+
+.page-item a:hover {
+    color: #1a1a1a;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    border: 1px solid #1a1a1a46;
+    background-color: #506266a2 !important;
+}
+
+.modalEditaAgente .buttonOpcional,
+.modalInativaAgente .buttonOpcional {
+    display: none;
+}
+
+.modal-body {
+    display: block;
+    width: 90%;
+    text-align: center;
+}
+
+.modal-body h4 {
+    text-align: center;
+}
+
+/* .editaAgente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.bodyModalEdit form {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bodyModalEdit .labelForm {
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-top: 1.5%;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+}
+
+.formEdicaoAgente input:focus {
+    box-shadow: 0px 0px 5px 2px rgba(24, 24, 24, 0.034);
+}
+
+.buttonsModalEdit button,
+.buttonsModalInative button {
+    margin: 3px;
+}
+
+.modalEdit,
+.modalInvalid {
+    display: none;
+}
+
+.buttonsModalEdit .buttonSave {
+    background-color: #83a57a;
+    color: white;
+}
+
+.buttonsModalEdit .buttonCancel,
+.buttonsModalInative .buttonInative {
+    background-color: #e26767;
+    color: white;
+}
+
+.buttonsModalInative .buttonBackAndCancel,
+.buttonsModalEdit .buttonBackAndCancel {
+    background-color: #506266;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .novoUsuario form {
+        width: 60%;
+    }
+
+    .labelForm .buttonHideSenha {
+        position: inherit;
+        margin-top: -33px;
+        margin-left: 85%;
+    }
+
+    .pesquisaTabela form {
+        width: 100%;
+    }
+
+    .iconsMenu {
+        width: 50vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tabelaAgentes {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 65%;
+        overflow: auto;
+    }
+
+    .pagination {
+        scale: 1;
+    }
+}
